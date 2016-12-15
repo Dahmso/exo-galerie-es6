@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "watch": "node_modules/.bin/babel --watch script.es6 -o script.js"
+    "watch": "node_modules/.bin/babel --watch script.es6 -o script.js",
+    "start": "babel script.es6 --watch -o script.js"
   },
   "keywords": [],
   "author": "",

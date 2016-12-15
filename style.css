@@ -9,22 +9,41 @@ html {
 
 body {
     height: 100%;
-    background-color: #ccc;
+    background-color#ccc;
 }
 
 header {
     padding: 8px;;
     color: #fff;
-    background-color: #666;
+    background-color: rgba(0,0,0,.5);
+    
+    
 }
 
 #container {
-
+    
     height: 100%;
 }
+#title {
+    margin: 40px;
+    font-size: 30px;
+    text-align: center;
+}
+#title h1 {
+font-family: 'Space Mono', monospace;
 
+}
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center; 
+    
+}
 .photo {
     margin: 10px;
-    display: inline-block;
+    display: flex;
     background-color: #FAFAFA;
+    box-shadow: -1px 0px 21px 2px rgba(0,0,0,0.2); 
+;
 }
